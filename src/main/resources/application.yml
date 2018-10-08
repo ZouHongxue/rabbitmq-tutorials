@@ -1,0 +1,13 @@
+spring:
+  rabbitmq:
+    host: xxx
+    port: 5672
+    username: your name
+    password: your pass
+    virtual-host: /
+  profiles:
+    active: fanout
+
+logging:
+  level:
+    org: ERROR
